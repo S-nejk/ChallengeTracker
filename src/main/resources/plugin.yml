@@ -1,0 +1,17 @@
+name: ChallengeTracker
+version: 1.5
+main: com.snejk.challengetracker.ChallengeTracker
+api-version: 1.21
+prefix: Challenge
+author: Snejk_
+description: A global, asynchronous event tracker and leaderboard add-on for the Quests plugin.
+
+commands:
+  challenge:
+    description: Main command for the Challenge Tracker.
+    aliases: [ch, top]
+
+permissions:
+  challengetracker.admin:
+    description: Allows access to the /ch admin menu and /ch reload command.
+    default: op

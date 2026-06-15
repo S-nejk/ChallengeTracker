@@ -1,0 +1,32 @@
+# ========================================== #
+#          CHALLENGE TRACKER V1.5            #
+# ========================================== #
+
+active-event:
+  # The display name of the event in chat and broadcasts
+  title: "&6&lGlobal Server Event"
+
+  # The exact Quest ID and Task ID from your Quests plugin data files
+  quest-id: "ExampleQuest"
+  task-id: "example_task"
+
+  # The total amount required to complete the challenge
+  goal: 100000
+
+  # The Epoch timestamp (in milliseconds) for when the event ends
+  end-timestamp: 1788523200000
+
+  # === EVENT STATUS ===
+  # Do not touch these! The plugin updates these automatically.
+  is-completed: false
+  final-total: 0
+  final-leaderboard: []
+
+  # === MILESTONES ===
+  # Tracks progress so it doesn't spam announcements. Reset to 'false' for new events!
+  milestones:
+    '25': false
+    '50': false
+    '75': false
+
+# For support, contact snake293_0993 on Discord!
